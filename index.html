@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoGame</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GeoGame</h1>
+    </header>
+    <main>
+        <div id="info-container">
+            <div id="target-city">Find: <span id="city-name">...</span></div>
+            <div id="score-board">Score: 0</div>
+            <div id="lives">Lives: 3</div>
+            <div id="timer">Time Left: 60s</div>
+        </div>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <p>GeoGame © 2024</p>
+    </footer>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
