@@ -1,3 +1,6 @@
+https://kaanozturkk.github.io/geogame-KaanOzturk-21833374/
+
+
 Overview:
 The project, GeoGame, is a map-based interactive game where the user aims to locate a target city on the map. It employs Leaflet.js to render the map and provides dynamic gameplay elements, such as scoring, lives, and a timer.
 
